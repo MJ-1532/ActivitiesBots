@@ -13,35 +13,27 @@ const ACTIVITIES: {
     id: "880218394199220334",
     name: "Watch Together",
   },
-  blazing: {
-    id: "832025144389533716",
-    name: "Blazing 8s",
-  },
-  know: {
-    id: "950505761862189096",
-    name: "Know What I Meme",
-  },
-  askAway: {
-    id: "976052223358406656",
-    name: "Ask Away",
-  },
-  bobbleLeague: {
-    id: "947957217959759964",
-    name: "Bobble League (Requires Boost Level 1)",
-  },
-  bashOut: {
-    id: "1006584476094177371",
-    name: "Bash Out (Requires Boost Level 1)",
-  },
   sketchHeads: {
     id: "902271654783242291",
-    name: "Sketch Heads (Requires Nitro)",
+    name: "Sketch Heads (new Doodle Crew)",
+  },
+  wordSnacks: {
+    id: "879863976006127627",
+    name: "Word Snacks",
+  },
+  betrayal: {
+    id: "773336526917861400",
+    name: "Betrayal.io",
+  },
+  fishing: {
+    id: "814288819477020702",
+    name: "Fishington.io",
   },
   puttParty: {
     id: "945737671223947305",
     name: "Putt Party (Requires Nitro)",
   },
-  pokerNight: {
+  poker: {
     id: "755827207812677713",
     name: "Poker Night (Requires Nitro)",
   },
@@ -53,17 +45,13 @@ const ACTIVITIES: {
     id: "903769130790969345",
     name: "Land-io (Requires Nitro)",
   },
+  blazing: {
+    id: "832025144389533716",
+    name: "Blazing 8s (formerly CG4 Prod & Ocho) (New! Requires Boost Level 1)",
+  },
   spellCast: {
     id: "852509694341283871",
-    name: "SpellCast (Requires Nitro)",
-  },
-  letterLeague: {
-    id: "879863686565621790",
-    name: "Letter League (Requires Nitro)",
-  },
-  checkers: {
-    id: "832013003968348200",
-    name: "Checkers in the Park (Requires Nitro)",
+    name: "SpellCast (New! Requires Boost Level 1)",
   },
 };
 
