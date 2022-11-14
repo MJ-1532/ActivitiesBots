@@ -7,7 +7,7 @@ After adding, use `/activity`
 
 Bot code is in [mod.ts](https://github.com/MJ1532/ActivitiesBots/blob/main/mod.ts)
 
-Originaly Made By [Advaith](https://github.com/advaith1/Activities) and [DjDeveloperr](https://github.com/DjDeveloperr/ActivitiesBot).
+Originaly Made By [Advaith](https://github.com/advaith1/Activities).
 
 ## Deployments
 This bot is deployed to [Deno Deploy](https://deno.com/deploy). You can also deploy it yourself in few clicks!
@@ -27,4 +27,4 @@ Application's bot user must be in the guild to create activity invite.
 
 - [MIT License](https://github.com/MJ1532/ActivitiesBots/blob/main/LICENSE)
 
-Copyright 2021 © MJ1532.
+Copyright 2022 © MJ1532.
