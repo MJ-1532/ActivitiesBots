@@ -11,55 +11,59 @@ const ACTIVITIES: {
 } = {
   watchTogether: {
     id: "880218394199220334",
-    name: "Watch Together (new Youtube Together)",
-  },
-  sketchHeads: {
-    id: "902271654783242291",
-    name: "Sketch Heads (new Doodle Crew)",
-  },
-  wordSnacks: {
-    id: "879863976006127627",
-    name: "Word Snacks",
-  },
-  betrayal: {
-    id: "773336526917861400",
-    name: "Betrayal.io",
-  },
-  fishing: {
-    id: "814288819477020702",
-    name: "Fishington.io",
-  },
-  puttParty: {
-    id: "945737671223947305",
-    name: "Putt Party (New! Requires Boost Level 1)",
-  },
-  landIo: {
-    id: "903769130790969345",
-    name: "Land-io (New! Requires Boost Level 1)",
-  },
-  poker: {
-    id: "755827207812677713",
-    name: "Poker Night (New! Requires Boost Level 1)",
-  },
-  chess: {
-    id: "832012774040141894",
-    name: "Chess in the Park (New! Requires Boost Level 1)",
-  },
-  checkers: {
-    id: "832013003968348200",
-    name: "Checkers in the Park (formerly CG3 Prod) (New! Requires Boost Level 1)",
+    name: "Watch Together",
   },
   blazing: {
     id: "832025144389533716",
-    name: "Blazing 8s (formerly CG4 Prod & Ocho) (New! Requires Boost Level 1)",
+    name: "Blazing 8s",
   },
-  letterLeague: {
-    id: "879863686565621790",
-    name: "Letter League (formerly Leter Tile) (New! Requires Boost Level 1)",
+  knowWhat: {
+    id: "950505761862189096",
+    name: "Know What I Meme",
+  },
+  askAway: {
+    id: "976052223358406656",
+    name: "Ask Away",
+  },
+  bobbleLeague: {
+    id: "947957217959759964",
+    name: "Bobble League (Requires Boost Level 1)",
+  },
+  bashOut: {
+    id: "1006584476094177371",
+    name: "Bash Out (Requires Boost Level 1)",
+  },
+  sketchHeads: {
+    id: "902271654783242291",
+    name: "Sketch Heads (Requires Nitro)",
+  },
+  puttParty: {
+    id: "945737671223947305",
+    name: "Putt Party (Requires Nitro)",
+  },
+  pokerNight: {
+    id: "755827207812677713",
+    name: "Poker Night (Requires Nitro)",
+  },
+  chess: {
+    id: "832012774040141894",
+    name: "Chess In The Park (Requires Nitro)",
+  },
+  landIo: {
+    id: "903769130790969345",
+    name: "Land-io (Requires Nitro)",
   },
   spellCast: {
     id: "852509694341283871",
-    name: "SpellCast (New! Requires Boost Level 1)",
+    name: "SpellCast (Requires Nitro)",
+  },
+  letterLeague: {
+    id: "879863686565621790",
+    name: "Letter League (Requires Nitro)",
+  },
+  checkers: {
+    id: "832013003968348200",
+    name: "Checkers in the Park (Requires Nitro)",
   },
 };
 
@@ -151,7 +155,7 @@ slash.handle("activity", (d) => {
 slash.handle("invite", (d) => {
   return d.reply(
     `> [Click Me to invite.](<https://discord.com/api/oauth2/authorize?client_id=911590387859226645&permissions=1025&scope=applications.commands%20bot>)\n` +
-      `> [Source Code.](<https://github.com/MJ1532/ActivitiesV2>)\n` +
+      `> [Source Code.](<https://github.com/MJ1532/ActivitiesBots>)\n` +
       `> Originally made by [Advaith](<https://github.com/advaith1/Activities>) and [DjDeveloper](<https://github.com/DjDeveloperr/ActivitiesBot>).`,
     { ephemeral: true },
   );
