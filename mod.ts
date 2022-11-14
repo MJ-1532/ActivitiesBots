@@ -154,7 +154,7 @@ slash.handle("activity", (d) => {
 
 slash.handle("invite", (d) => {
   return d.reply(
-    `> [Click Me to invite.](<https://discord.com/api/oauth2/authorize?client_id=911590387859226645&permissions=1025&scope=applications.commands%20bot>)\n` +
+    `> [Click Me to invite.](<https://discord.com/api/oauth2/authorize?client_id=911444805618401290&permissions=1025&scope=applications.commands%20bot>)\n` +
       `> [Source Code.](<https://github.com/MJ1532/ActivitiesBots>)\n` +
       `> Originally made by [Advaith](<https://github.com/advaith1/Activities>) and [DjDeveloper](<https://github.com/DjDeveloperr/ActivitiesBot>).`,
     { ephemeral: true },
